@@ -1,0 +1,282 @@
+hr {
+  color: black;
+  border-width: 2px;
+}
+
+footer {
+  font-size: 20px;
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  background-color: #000;
+  color: white;
+}
+.footer-div {
+  display: flex;
+  align-items: center;
+}
+.footer-div p {
+  margin-bottom: 0;
+}
+
+.navbar {
+  height: 65px;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: white;
+}
+
+.bg-image {
+  width: 100%;
+  height: 400px;
+  /* opacity: 0.5; */
+}
+
+.custom-bg-color {
+  background-color: black;
+}
+
+.bg-img-div {
+  background-image: url("../images/bg-img4.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  color: white;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 365px;
+  right: 80px;
+  border-radius: 100px;
+}
+
+.name {
+  font-size: 54px;
+  margin-bottom: 0;
+}
+
+.role {
+  font-size: 36px;
+}
+
+.name-role-div {
+  padding: 100px 0 0 100px;
+  width: fit-content;
+}
+
+.dnone {
+  display: none;
+}
+
+
+/*                                                                    home-div styles                                                            */
+
+#home-div{
+    min-height: 600px;
+}
+
+#home-div p{
+    font-size: 20px;
+}
+
+#home-div h3{
+    margin-bottom: 35px
+}
+
+#home-div .home-div-content{
+    padding-top: 35px;
+    margin: 0 100px 50px;
+}
+
+#home-div .resume-div{
+    margin-top: 200px;
+    padding-bottom: 20px;
+}
+
+#home-div .btn{
+    color: white;
+    background-color: grey;
+}
+
+/*                                                                   contact page styles                                                          */
+
+#contactme {
+  min-height: 600px;
+}
+
+#contactme .contactme-heading {
+  background-color: grey;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contactme .contactme-details {
+  margin-top: 30px;
+}
+#contactme p {
+  font-size: 20px;
+}
+
+#contactme h1 {
+  font-size: 30px;
+  color: white;
+}
+
+#contactme .connect-with-me a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.connect-with-me {
+  margin-top: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*                                                                     project page style                                                                */
+
+#myprojects h1{
+  font-size: 30px;
+    color: white;
+}
+
+#myprojects p {
+    font-size: 20px;
+  margin: auto 10% auto 10%;
+}
+
+#myprojects .myprojects-heading {
+  background-color: grey;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myprojects .automobile-project-div {
+  margin: 30px 100px 30px 100px;
+}
+
+#myprojects img{
+    aspect-ratio: 16/9;
+     width: 60%;
+     margin-bottom: 20px;
+}
+
+
+/*                                                                      article page style                                                               */
+
+#myarticles{
+    min-height: 400px;
+}
+
+#myarticles h1{
+    font-size: 30px;
+      color: white;
+  }
+  
+  
+  #myarticles p {
+      font-size: 20px;
+    margin: auto 10% auto 10%;
+  }
+
+  #myarticles .myarticles-heading {
+    background-color: grey;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #myarticles .articles-div{
+    margin-top: 30px;
+  }
+
+  .row{
+    margin-bottom: 30px;
+  }
+ 
+  .card{
+    border-width: 2px;
+    border-color: #000;
+  }
+
+  .card-img-top{
+    padding: 20px 100px;
+    height:200px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+  .profile-img {
+    left: 50%;
+    margin-left: -100px;
+  }
+  .name-role-div {
+    padding: 10% 0 0 15%;
+  }
+  .name {
+    font-size: 34px;
+  }
+  .role {
+    font-size: 20px;
+  }
+  #myprojects .automobile-project-div {
+    margin: 30px 20px 30px 20px;
+  }
+  #myprojects p {
+    font-size: 14px;
+  }
+  #myprojects img{
+    aspect-ratio: 16/9;
+     width: 70%;
+}
+#home-div .home-div-content{
+    padding-top: 100px;
+    margin: 0 40px 50px;
+}
+#home-div p{
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 601px) {
+  .name-role-div {
+    padding: 6% 0 0 10%;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .role {
+    font-size: 30px;
+  }
+  #myprojects .automobile-project-div {
+    margin: 30px 40px 30px 40px;
+  }
+  #myprojects p {
+    font-size: 18px;
+  }
+  #home-div .home-div-content{
+    margin: 0 60px 50px;
+}
+#home-div p{
+    font-size: 17px;
+}
+}
